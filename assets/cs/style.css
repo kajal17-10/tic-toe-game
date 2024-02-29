@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(150, 110, 219);
+}
+.container{
+    height: 60vmin;
+    /* From https://css.glass */
+background: rgba(192, 36, 36, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(192, 36, 36, 0.3);
+width: 60vmin;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 50px auto;
+}
+.game{
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.color{
+    color: white;
+}
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    background-color:white;
+    border: 2px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 8vmin;
+    display: flex;justify-content: center;
+    align-items: center;
+    color: rgb(105, 33, 33);
+   box-shadow: 10px 10px 5px 0px rgba(237,211,237,0.32);
+  
+}
+.btn{
+    margin: auto;
+}
+#reset-btn{
+font-size: 6vmin;
+margin: 20px 0px;
+padding: 10px;
+text-transform: capitalize;
+color: red;
+cursor: pointer;
+}
+/* msg-container */
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#new-btn{
+    font-size: 6vmin;
+    margin: 20px 0px;
+    padding: 10px;
+    text-transform: capitalize;
+    color:white;
+    cursor: pointer;
+    background-color: rgb(19, 19, 108);
+}
+#msg{
+    font-size: 8vmin;
+    color: white;
+}
+.hide{
+    display: none;
+}
